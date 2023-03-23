@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: conic-gradient(from 90deg at 50% 0%, #121214, 50%, #7C7C8A, #121214);
+
+  display: grid;
+  place-content: center;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.button {
+  cursor: pointer;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  border: 0;
+  outline: 1px solid #29292E;
+  background-color: #202024;
+
+  position: relative;
+}
+
+.button strong {
+  font-size: 3rem;
+  font-weight: 700;
+
+  background: conic-gradient(from -90deg at 25% 115%, #ff0000, #ff0066, #ff00cc, #cc00ff, #6600ff, #0000ff, #0000ff, #0000ff, #0000ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button:hover .glow {
+  opacity: 0.95;
+  inset: -0.4rem;
+}
+
+.glow {
+  inset: -0.3rem;
+  position: absolute;
+  background: conic-gradient(from -90deg at 25% 115%, #ff0000, #ff0066, #ff00cc, #cc00ff, #6600ff, #0000ff, #0000ff, #0000ff, #0000ff);
+  opacity: 0.25;
+  border-radius: 8px;
+  filter: blur(8px);
+  z-index: -1;
+  transition: all 0.25s ease-out;
+}
