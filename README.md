@@ -1,9 +1,9 @@
 # Glowing Gradient Background
 
-👉 Teste [aqui](https://ferz1ka.github.io/glowing-gradient-background/)!
+👉 Try the live version [here](https://ferz1ka.github.io/glowing-gradient-background/)!
 
 
-### Normal
+### Default
 <img width="100%" src="assets/normal.png">
 
 ### Hover
