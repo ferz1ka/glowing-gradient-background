@@ -1,6 +1,6 @@
 # Glowing Gradient Background
 
-👉 Confira o [live demo]([https://www.google.com](https://ferz1ka.github.io/glowing-gradient-background/))
+👉 Confira o [live demo](https://ferz1ka.github.io/glowing-gradient-background/)
 
 
 ### Normal
